@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="pt-BR" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Victor Gabriel</title>
+  <meta name="description" content="Portfólio da desenvolvedora front-end Elidiana Andrade para compartilhar projetos e habilidades desenvolvidas.">
+
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+  <header class="header">
+    <nav class="header__nav">
+      <ul class="menu menu--principal">
+        <li class="menu__item">
+          <a class="menu__link active" href="#home">
+            <span class="menu__text">Home</span>
+          </a>
+        </li>
+        <li class="menu__item">
+          <a class="menu__link" href="#projetos">
+            <span class="menu__text">Projetos</span>
+          </a>
+        </li>
+        <li class="menu__item">
+          <a class="menu__link" href="#sobre">
+            <span class="menu__text">Sobre</span>
+          </a>
+        </li>
+        <li class="menu__item">
+          <a class="menu__link" href="#contato">
+            <span class="menu__text">Contato</span>
+          </a>
+        </li>
+      </ul>
+    </nav>
+    <div class="header__brand">
+      <a href="#home">
+        <img class="brand__logo" src="assets/images/logo-ea.png" alt="Logo EA">
+      </a>
+    </div>
+    <div class="header__toggle">
+      <i id="toggleTheme" class="bi bi-sun"></i>
+    </div>
+  </header>
+  <nav class="nav--mobile">
+    <ul class="menu menu--mobile">
+      <li class="menu__item">
+        <a class="menu__link active" href="#home">
+          <i class="menu__icon bi bi-house-door"></i>
+          <span class="menu__text">Home</span>
+        </a>
+      </li>
+      <li class="menu__item">
+        <a class="menu__link" href="#projetos">
+          <i class="menu__icon bi bi-window-stack"></i>
+          <span class="menu__text">Projetos</span>
+        </a>
+      </li>
+      <li class="menu__item">
+        <a class="menu__link" href="#sobre">
+          <i class="menu__icon bi bi-person"></i>
+          <span class="menu__text">Sobre</span>
+        </a>
+      </li>
+      <li class="menu__item">
+        <a class="menu__link" href="#contato">
+          <i class="menu__icon bi bi-envelope"></i>
+          <span class="menu__text">Contato</span>
+        </a>
+      </li>
+    </ul>
+  </nav>
+
+  <main id="home">
+    <div class="main__content1">
+      <h1><b>Soluções Criativas &</b> Desenvolvimento Front-end</h1>
+      <p>Victor Gabriel, Itapevi-SP Desenvolvedora e Instrutora Front-end.</p> 
+      <ul class="menu menu--social">
+        <li>
+          <a class="menu__link" href="https://github.com/VictorGabriel01" target="_blank">
+            <i class="menu__icon bi bi-github"></i>
+          </a>
+        </li>
+        <li>
+          <a class="menu__link" href="https://www.linkedin.com/in/victor--gabriel/" target="_blank">
+            <i class="menu__icon bi bi-linkedin"></i>
+          </a>
+        </li>
+      </ul>
+      <a href="#projetos">
+        <button class="btn btn--primary">
+          <span>Ver Projetos</span>
+          <i class="bi bi-arrow-down-right"></i>
+        </button>  
+      </a>
+    </div>
+  </main>
+
+  <section class="technologies">
+    <h2>Conhecimento nas principais tecnologias do mercado</h2>
+    <ul class="technologies__list">
+      <li class="technologies__item">
+        <img class="technologies__logo" src="assets/images/technologies/HTML.svg" alt="Logo Angular">
+      </li>
+      <li class="technologies__item">
+        <img class="technologies__logo" src="assets/images/technologies/CSS.svg" alt="Logo TypeScript">
+      </li>
+      <li class="technologies__item">
+        <img class="technologies__logo" src="assets/images/technologies/JS.svg" alt="Logo Bootstrap">
+      </li>
+    </ul>
+  </section>
+
+  <section id="projetos" class="projects">
+    <h2>Projetos</h2>
+    <div class="projects__container">
+      <div class="projects__card">
+        <img class="card__cover" src="assets/images/projects/Mundo-invertido.jpg" alt="Capa Josi's Box">
+        <div class="card__body">
+          <h3 class="card__title">Mundo Invertido</h3>
+          <p class="card__description">Landing page do Stranger Things</p>
+          <ul class="card__list">
+            <li class="card__item">Integração com o firebase;</li>
+            <li class="card__item">Interatividade com manipulação do DOM;</li>
+            <li class="card__item">Identidade visual consistente (UI/UX).</li>
+          </ul>
+          <ul class="technologies__list">
+            <li class="technologies__item">
+              <img class="technologies__logo" src="assets/images/technologies/HTML.svg" alt="Logo Angular">
+            </li>
+            <li class="technologies__item">
+              <img class="technologies__logo" src="assets/images/technologies/CSS.svg" alt="Logo TypeScript">
+            </li>
+            <li class="technologies__item">
+              <img class="technologies__logo" src="assets/images/technologies/JS.svg" alt="Logo Bootstrap">
+            </li>
+          </ul>
+          <div class="card__buttons">
+            <a href="https://victorgabriel01.github.io/mundo-invertido-dio/" target="_blank">
+            
+            <button class="btn btn--primary">
+              <span>Prévia</span>
+              <i class="bi bi-arrow-up-right"></i>
+            </button> 
+            </a>
+            <a href="https://github.com/VictorGabriel01/mundo-invertido-dio" target="_blank">
+            <button class="btn">
+              <span>Repositório</span>
+            </button>  
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="projects__card card--reverse">
+        <img class="card__cover" src="assets/images/projects/Pokedex.jpg" alt="Capa Archstil">
+        <div class="card__body">
+          <h3 class="card__title">Pokedex</h3>
+          <p class="card__description">Pokedex, utilizando o PokeApi</p>
+          <ul class="card__list">
+            <li class="card__item">Consumo de API externa (PokeAPI);</li>
+            <li class="card__item">Renderização dinâmica de conteúdo ;</li>
+            <li class="card__item">Interface visual organizada e escalável.</li>
+          </ul>
+          <ul class="technologies__list">
+            <li class="technologies__item">
+              <img class="technologies__logo" src="assets/images/technologies/HTML.svg" alt="Logo Angular">
+            </li>
+            <li class="technologies__item">
+              <img class="technologies__logo" src="assets/images/technologies/CSS.svg" alt="Logo TypeScript">
+            </li>
+            <li class="technologies__item">
+              <img class="technologies__logo" src="assets/images/technologies/JS.svg" alt="Logo Bootstrap">
+            </li>
+          </ul>
+          <div class="card__buttons">
+            <a href="https://victorgabriel01.github.io/projeto-pokedex-dio/" target="_blank">
+            <button class="btn btn--primary">
+              <span>Prévia</span>
+              <i class="bi bi-arrow-up-right"></i>
+            </button>
+            </a>
+            <a href="https://github.com/VictorGabriel01/projeto-pokedex-dio" target="_blank">
+            <button class="btn">
+              <span>Repositório</span>
+            </button>  
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="projects__card">
+        <img class="card__cover" src="assets/images/projects/Saphire.jpg" alt="Capa Games Store">
+        <div class="card__body">
+          <h3 class="card__title">Projeto Saphire</h3>
+          <p class="card__description">Landing page de uma empresa de arquitetura</p>
+          <ul class="card__list">
+            <li class="card__item">Projeto com identidade própria;</li>
+            <li class="card__item">Estrutura de layout e organização visual;</li>
+            <li class="card__item">Responsividade da página.</li>
+          </ul>
+          <ul class="technologies__list">
+            <li class="technologies__item">
+              <img class="technologies__logo" src="assets/images/technologies/HTML.svg" alt="Logo Angular">
+            </li>
+            <li class="technologies__item">
+              <img class="technologies__logo" src="assets/images/technologies/CSS.svg" alt="Logo TypeScript">
+            </li>
+            <li class="technologies__item">
+              <img class="technologies__logo" src="assets/images/technologies/JS.svg" alt="Logo Bootstrap">
+            </li>
+          </ul>
+          <div class="card__buttons">
+            <a href="https://victorgabriel01.github.io/projeto-saphire/" target="_blank">
+            <button class="btn btn--primary">
+              <span>Prévia</span>
+              <i class="bi bi-arrow-up-right"></i>
+            </button>  
+            </a>
+            <a href="https://github.com/VictorGabriel01/projeto-saphire" target="_blank">
+            <button class="btn">
+              <span>Repositório</span>
+            </button>  
+            </a>
+          </div>
+        </div>
+      </div>
+      <a href="https://github.com/VictorGabriel01" target="_blank">
+        <button class="btn btn--primary">
+          <span>Ver Todos os Projetos</span>
+          <i class="bi bi-arrow-up-right"></i>
+        </button>  
+      </a>
+    </div>
+  </section>
+
+  <section id="sobre" class="about">
+    <div class="about__content1">
+      <img class="about__photo" src="assets/images/expo ciee dia 3-1998.JPG" alt="">
+      <div class="about__description">
+        <h2>Sobre mim</h2>
+        <p>Desenvolvedor front-end em formação, com experiência em HTML, CSS e JavaScript. Tenho foco na criação de interfaces responsivas e na construção de aplicações com consumo de APIs e conteúdo dinâmico.
+        Busco escrever código limpo e organizado, sempre evoluindo minhas habilidades através de projetos práticos e desafios reais. Atualmente, estou em constante aprendizado para me tornar um desenvolvedor cada vez mais completo.
+        </p>  
+        <div class="about__icons">
+          <i class="bi bi-translate"></i>
+          <span>Português: Nativo</span>
+        </div>
+        <div class="description__buttons">
+          <a href="https://www.linkedin.com/in/victor--gabriel/" target="_blank">
+            <button class="btn btn--primary">
+              <span>Conecte-se Comigo</span>
+              <i class="bi bi-arrow-up-right"></i>
+            </button> 
+          </a>
+          <a href="./assets/Currículo.pdf" download="Currículo">
+            <button class="btn">
+              <span>Currículo</span>
+            </button>
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="about__content2">
+      <div class="col1">
+        <div class="row1">
+          <h3>Formação</h3>
+          <h4>Tecnologia em Análise e Desenvolvimento de Sistemas</h4>
+          <span>Ago-23 / Dez-25</span>
+          <div class="about__icons">
+            <i class="bi bi-bank"></i>
+            <span>Universidade Nove de Julho</span>
+          </div>
+          <div class="about__icons">
+            <i class="bi bi-mortarboard"></i>
+            <span>Graduação tecnóloga</span>
+          </div>
+        </div>
+        <div class="row2">
+          <h3>Experiências</h3>
+          <h4>Auxiliar de Logística</h4>
+          <span>Vinolog-Logística. Fev 2024 - Atualmente</span>
+          <span>Conferência, separação de carga e análise de inventários
+          </span>
+          <ul class="about__list">
+            <li class="about__item">Comunicação;</li>
+            <li class="about__item">Trabalho em Equipe;</li>
+            <li class="about__item">Raciocínio Lógico.</li>
+          </ul>
+        </div>
+      </div>
+      <div class="col2">
+        <h3>Cursos</h3>
+        <div id="accordion">
+          <div class="accordion__item active">
+            <button class="accordion__header start">
+              <span>Tecnologia e Dados do Programa</span>
+              <i class="bi bi-caret-down-fill"></i>
+            </button>
+            <div class="accordion__body">
+              <p>
+                Transforme-se Serasa Experian. 360h.
+              </p>
+              <p>
+                Conhecimentos na área do Front-end, aprendendo HTML, CSS, Javascript, versionamento de código, Git e GitHub e responsividade. 
+              </p>
+            </div>
+          </div>
+          <div class="accordion__item">
+            <button class="accordion__header">
+              <span>PROPROFISSÃO</span>
+              <i class="bi bi-caret-down-fill"></i>
+            </button>
+            <div class="accordion__body">
+              <p>
+                Instituto PROA. 440h.
+              </p>
+              <p>
+                Conhecimento nas áreas de UI/UX Design, Front-end, Back-end e Banco de dados, aprendendo e densenvolvendo habilidades de HTML, CSS, Javascript, versionamento de código, Git e GitHub e responsividade, React, MySQL, Java, Comunicação, Trabalho em Equipe e Metodologias Ágeis como SCRUM.
+              </p>
+            </div>
+          </div>
+          <div class="accordion__item">
+            <button class="accordion__header end">
+              <span>Ri Happy - Front-end do Zero</span>
+              <i class="bi bi-caret-down-fill"></i>
+            </button>
+            <div class="accordion__body end">
+              <p>
+                Digital Innovation One. Out 2024. 77h.
+              </p>
+              <p>
+                Domine a trinca fundamental do bom desenvolvedor Front-End com HTML, CSS e JAVASCRIPT, com uma base estruturada de conteúdos e 10 projetos práticos, incluindo páginas web responsivas e dinâmicas.
+              </p>
+            </div>
+          </div>
+        </div>
+  </section>
+  
+  <section id="contato" class="contact">
+    <h2>Contate-me</h2>
+    <p>Estou disponível para serviços e novas conexões. Contate-me via 
+      e-mail e conecte-se comigo através das minhas redes sociais.
+    </p>
+    <ul class="menu menu--social">
+      <li>
+        <a class="menu__link" href="https://github.com/VictorGabriel01" target="_blank">
+          <i class="menu__icon bi bi-github"></i>
+          <span>GitHub</span>
+        </a>
+      </li>
+      <li>
+        <a class="menu__link" href="https://www.linkedin.com/in/victor--gabriel/" target="_blank">
+          <i class="menu__icon bi bi-linkedin"></i>
+          <span>LinkedIn</span>
+        </a>
+      </li>
+    </ul>
+    <a href="mailto:victorpalermo48@gmail.com">
+      <button class="btn btn--primary">
+        <span class="email">victorpalermo48@gmail.com</span>
+      </button>  
+    </a>
+  </section>
+
+  <footer>
+    <p>
+      © 2023. Portfólio desenvolvido para fins educativos no Lab "Construindo seu Portfolio Front-end do Zero" da 
+      <a href="https://www.dio.me/" target="_blank">Digital Innovation One</a> por 
+      <a href="https://github.com/VictorGabriel01" target="_blank">Victor Gabriel</a>.
+    </p>
+  </footer>
+  <script src="assets/js/scripts.js"></script>
+</body>
+</html>
